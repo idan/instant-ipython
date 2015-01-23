@@ -31,10 +31,7 @@ app.use(sessions({
 app.use(bouncer({
   oAuthClientID      : process.env.HEROKU_OAUTH_ID,
   oAuthClientSecret  : process.env.HEROKU_OAUTH_SECRET,
-  encryptionSecret   : process.env.HEROKU_BOUNCER_SECRET,
-  ignoredRoutes      : [
-    '/api*'
-  ]
+  encryptionSecret   : process.env.HEROKU_BOUNCER_SECRET
 }));
 
 app.use(function(req, res) {
