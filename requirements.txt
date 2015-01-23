@@ -7,8 +7,6 @@ boto==2.35.2
 certifi==14.05.14
 docutils==0.12
 gnureadline==6.3.3
-certifi==14.05.14
-docutils==0.12
 ipython==2.3.0
 matplotlib==1.4.2
 mock==1.0.1
