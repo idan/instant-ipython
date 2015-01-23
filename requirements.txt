@@ -3,6 +3,7 @@ MarkupSafe==0.23
 Pygments==2.0.1
 Sphinx==1.2.3
 backports.ssl-match-hostname==3.4.0.2
+boto==2.35.2
 certifi==14.05.14
 docutils==0.12
 ipython==2.3.0
@@ -15,6 +16,7 @@ pyparsing==2.0.3
 python-dateutil==2.2
 pytz==2014.9
 pyzmq==14.4.1
+s3nb==0.0.3
 six==1.8.0
 tornado==4.0.2
 wsgiref==0.1.2
