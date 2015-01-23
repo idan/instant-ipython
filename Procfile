@@ -1,1 +1,1 @@
-web: ipython notebook --no-browser --ip=* --port=$PORT --NotebookApp.password=$IPYTHON_PASSWORD_HASH --S3NotebookManager.s3_base_uri=$S3_NOTEBOOK_URI --NotebookApp.notebook_manager_class='s3nb.S3NotebookManager'
+web: honcho start --procfile=Procfile.dyno
