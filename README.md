@@ -3,8 +3,7 @@ Instant IPython
 
 [IPython Notebook](http://ipython.org/notebook.html) packaged for Heroku.
 
-**Note:**  There is currently no provision for permanent storage.  All data will be lost on restart.
-
+Data is persisted to S3. Magic!
 
 Usage
 -----
@@ -41,6 +40,14 @@ $ heroku open
 
 Password used to protect the notebook from unauthorised access.
 
+#### `S3_NOTEBOOK_URI`
+
+Location of your S3 notebook bucket e.g. `s3://my-ipython-s3/files/`
+
+#### `AWS_ACCESS_KEY_ID`
+#### `AWS_SECRET_ACCESS_KEY`
+
+AWS Credentials as per [this service](http://aws.amazon.com/iam/).
 
 About
 -----
