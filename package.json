@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mietek/instant-ipython.git"
+    "url": "https://github.com/idan/instant-ipython.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mietek/instant-ipython/issues"
+    "url": "https://github.com/idan/instant-ipython/issues"
   },
-  "homepage": "https://github.com/mietek/instant-ipython",
+  "homepage": "https://github.com/idan/instant-ipython",
   "dependencies": {
     "client-sessions": "^0.7.0",
     "cookie-parser": "^1.3.3",
