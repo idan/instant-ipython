@@ -52,4 +52,4 @@ AWS Credentials as per [this service](http://aws.amazon.com/iam/).
 About
 -----
 
-Made by [Miëtek Bak](https://mietek.io/).  Published under the [MIT X11 license](https://mietek.io/license/).
+Originally by [Miëtek Bak](https://mietek.io/). Heroku supercharging by Rhys Elmore and Idan Gazit. Published under the [MIT X11 license](https://mietek.io/license/).
