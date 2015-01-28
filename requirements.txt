@@ -18,7 +18,7 @@ pyparsing==2.0.3
 python-dateutil==2.4.0
 pytz==2014.10
 pyzmq==14.5.0
--e git+https://github.com/monetate/s3nb@173841ca7e2bc29f810c46bc84d93c45e1c4057f
+-e git+https://github.com/monetate/s3nb@173841ca7e2bc29f810c46bc84d93c45e1c4057f#egg=s3nb
 seaborn==0.5.1
 six==1.9.0
 tornado==4.0.2
